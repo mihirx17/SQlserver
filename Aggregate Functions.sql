@@ -95,16 +95,3 @@ Orders as B on
 A.CustomerID=B.CustomerID where A.Country='Germany' group by A.CustomerName) as AvgCount
 
 
-git init
-
--- Add the SQL file to the staging area
-git add "Aggregate Functions.sql"
-
--- Commit the changes with a message
-git commit -m "Add Aggregate Functions SQL script"
-
--- Add the remote repository URL
-git remote add origin https://github.com/mihirx17/SQlserver.git
-
--- Push the changes to the GitHub repository
-git push -u origin main
